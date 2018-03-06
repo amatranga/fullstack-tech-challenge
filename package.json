@@ -3,8 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node app.js",
-    "start-debug": "node $NODE_DEBUG_OPTION app.js"
+    "build": "webpack",
+    "build:watch": "webpack --watch",
+    "start": "webpack-dev-server"
   },
   "dependencies": {
     "express": "^4.16.2",
