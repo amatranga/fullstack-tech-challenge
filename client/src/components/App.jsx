@@ -14,9 +14,8 @@ const App = () => {
     <div className="container-fluid">
       <Router>
         <Switch>
-          <Route path="/" component={Main} />
+          <Route exact path="/" component={Main} />
           <Route path="/ledger/*" component={Ledger} />
-          <Route path="*" component={NotFound} />
         </Switch>
       </Router>
     </div>
