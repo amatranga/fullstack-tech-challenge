@@ -30,7 +30,8 @@ const config = {
   resolve: {
     extensions: ['.js', '.jsx']
   },
-  devtool: 'source-map'
+  devtool: 'source-map',
+  mode: 'development',
 };
 
 module.exports = config;
