@@ -5,7 +5,7 @@
   "scripts": {
     "build": "webpack",
     "build:watch": "webpack --watch",
-    "start": "webpack-dev-server"
+    "start": "node app.js"
   },
   "dependencies": {
     "express": "^4.16.2",
