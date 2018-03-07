@@ -1,5 +1,17 @@
 # Tia Technical Challenge - Fullstack
-Estimated time commitment: 2-4 hours. The task is not timed and you can work at your own pace.
+## Starting the Application
+
+```
+git clone https://github.com/amatranga/fullstack-tech-challenge.git
+cd fullstack-tech-challenge
+npm install
+npm run build
+npm start
+```
+
+Note that webpack-cli may need to be installed before `npm run build` will work.
+
+The application will run at `localhost:3000` by default.
 
 ## Task
 Your task is to develop a UI for users to reliably view their bank transactions including deposits, withdrawals and transfers.
